@@ -15,7 +15,7 @@ public class MainActivity extends Activity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		((TextView) this.findViewById(R.id.tv_main)).setText(JniClient
-				.HelloWorld());
+				.HelloWorld().toString());
 	}
 
 	@Override
